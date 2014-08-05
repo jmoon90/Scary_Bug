@@ -29,6 +29,12 @@
 		6530CD661990646500BFF05E /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6530CD611990646500BFF05E /* ladybug.jpg */; };
 		6530CD671990646500BFF05E /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6530CD621990646500BFF05E /* potatoBugThumb.jpg */; };
 		6530CD691990674800BFF05E /* wolfspider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6530CD681990674800BFF05E /* wolfspider.jpg */; };
+		6530CD7519906F5600BFF05E /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6530CD6D19906F5600BFF05E /* logo1.png */; };
+		6530CD7619906F5600BFF05E /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530CD6F19906F5600BFF05E /* RWTRateView.m */; };
+		6530CD7719906F5600BFF05E /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530CD7119906F5600BFF05E /* RWTUIImageExtras.m */; };
+		6530CD7819906F5600BFF05E /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 6530CD7219906F5600BFF05E /* shockedface2_empty.png */; };
+		6530CD7919906F5600BFF05E /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 6530CD7319906F5600BFF05E /* shockedface2_full.png */; };
+		6530CD7A19906F5600BFF05E /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 6530CD7419906F5600BFF05E /* shockedface2_half.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +78,14 @@
 		6530CD611990646500BFF05E /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ladybug.jpg; path = ../../../../../Desktop/ladybug.jpg; sourceTree = "<group>"; };
 		6530CD621990646500BFF05E /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potatoBugThumb.jpg; path = ../../../../../Desktop/potatoBugThumb.jpg; sourceTree = "<group>"; };
 		6530CD681990674800BFF05E /* wolfspider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfspider.jpg; path = ../../../../../Desktop/wolfspider.jpg; sourceTree = "<group>"; };
+		6530CD6D19906F5600BFF05E /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = ../../../../../Downloads/ExtraStuffForScaryBugs/logo1.png; sourceTree = "<group>"; };
+		6530CD6E19906F5600BFF05E /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTRateView.h; path = ../../../../../Downloads/ExtraStuffForScaryBugs/RWTRateView.h; sourceTree = "<group>"; };
+		6530CD6F19906F5600BFF05E /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTRateView.m; path = ../../../../../Downloads/ExtraStuffForScaryBugs/RWTRateView.m; sourceTree = "<group>"; };
+		6530CD7019906F5600BFF05E /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTUIImageExtras.h; path = ../../../../../Downloads/ExtraStuffForScaryBugs/RWTUIImageExtras.h; sourceTree = "<group>"; };
+		6530CD7119906F5600BFF05E /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTUIImageExtras.m; path = ../../../../../Downloads/ExtraStuffForScaryBugs/RWTUIImageExtras.m; sourceTree = "<group>"; };
+		6530CD7219906F5600BFF05E /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_empty.png; path = ../../../../../Downloads/ExtraStuffForScaryBugs/shockedface2_empty.png; sourceTree = "<group>"; };
+		6530CD7319906F5600BFF05E /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_full.png; path = ../../../../../Downloads/ExtraStuffForScaryBugs/shockedface2_full.png; sourceTree = "<group>"; };
+		6530CD7419906F5600BFF05E /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_half.png; path = ../../../../../Downloads/ExtraStuffForScaryBugs/shockedface2_half.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +145,9 @@
 		6530CD2419905B7400BFF05E /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				6530CD7C19906F8E00BFF05E /* Art */,
+				6530CD7B19906F7A00BFF05E /* Helpers */,
+				6530CD6A19906F3000BFF05E /* Views */,
 				6530CD5E1990646500BFF05E /* potatoBug.jpg */,
 				6530CD681990674800BFF05E /* wolfspider.jpg */,
 				6530CD5F1990646500BFF05E /* centipede.jpg */,
@@ -196,6 +213,35 @@
 				6530CD5C19905D1E00BFF05E /* RWTScaryBugDoc.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		6530CD6A19906F3000BFF05E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6530CD6D19906F5600BFF05E /* logo1.png */,
+				6530CD6E19906F5600BFF05E /* RWTRateView.h */,
+				6530CD6F19906F5600BFF05E /* RWTRateView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6530CD7B19906F7A00BFF05E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6530CD7019906F5600BFF05E /* RWTUIImageExtras.h */,
+				6530CD7119906F5600BFF05E /* RWTUIImageExtras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6530CD7C19906F8E00BFF05E /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				6530CD7219906F5600BFF05E /* shockedface2_empty.png */,
+				6530CD7319906F5600BFF05E /* shockedface2_full.png */,
+				6530CD7419906F5600BFF05E /* shockedface2_half.png */,
+			);
+			name = Art;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,13 +321,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6530CD7919906F5600BFF05E /* shockedface2_full.png in Resources */,
 				6530CD3A19905B7400BFF05E /* Images.xcassets in Resources */,
 				6530CD2919905B7400BFF05E /* InfoPlist.strings in Resources */,
 				6530CD661990646500BFF05E /* ladybug.jpg in Resources */,
 				6530CD631990646500BFF05E /* potatoBug.jpg in Resources */,
 				6530CD691990674800BFF05E /* wolfspider.jpg in Resources */,
 				6530CD3219905B7400BFF05E /* Main.storyboard in Resources */,
+				6530CD7A19906F5600BFF05E /* shockedface2_half.png in Resources */,
 				6530CD671990646500BFF05E /* potatoBugThumb.jpg in Resources */,
+				6530CD7519906F5600BFF05E /* logo1.png in Resources */,
+				6530CD7819906F5600BFF05E /* shockedface2_empty.png in Resources */,
 				6530CD641990646500BFF05E /* centipede.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6530CD5A19905C2200BFF05E /* RWTScaryBugData.m in Sources */,
+				6530CD7619906F5600BFF05E /* RWTRateView.m in Sources */,
+				6530CD7719906F5600BFF05E /* RWTUIImageExtras.m in Sources */,
 				6530CD2F19905B7400BFF05E /* RWTAppDelegate.m in Sources */,
 				6530CD5D19905D1E00BFF05E /* RWTScaryBugDoc.m in Sources */,
 				6530CD2B19905B7400BFF05E /* main.m in Sources */,
