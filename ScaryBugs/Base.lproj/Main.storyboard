@@ -46,7 +46,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="Ah7-4n-0Wa" kind="push" id="5S3-Q1-gFw"/>
+                                    <segue destination="Ah7-4n-0Wa" kind="push" identifier="MySegue" id="5S3-Q1-gFw"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
